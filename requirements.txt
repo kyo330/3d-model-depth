@@ -1,0 +1,7 @@
+streamlit>=1.36
+torch
+transformers>=4.44
+pillow
+numpy
+open3d
+plotly

@@ -1,8 +1,9 @@
-streamlit==1.36.0
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.3.1
+streamlit==1.36.0
 transformers==4.45.2
-timm==0.9.16          # GLPN backbone
-safetensors>=0.4.5
+timm==0.9.16
+safetensors==0.4.5
 pillow==10.4.0
-numpy==1.26.4         # avoids numpy 2.x ABI hiccups
+numpy==1.26.4
 plotly==5.24.1
